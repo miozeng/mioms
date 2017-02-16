@@ -1,0 +1,12 @@
+|===
+|Path|Type|Description
+
+|`uid`
+|`String`
+|userid
+
+|`status`
+|`String`
+|handle status 
+
+|===

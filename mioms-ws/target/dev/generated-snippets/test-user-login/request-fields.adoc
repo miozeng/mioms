@@ -1,0 +1,12 @@
+|===
+|Path|Type|Description
+
+|`name`
+|`String`
+|The user's name
+
+|`password`
+|`String`
+|The user's password
+
+|===

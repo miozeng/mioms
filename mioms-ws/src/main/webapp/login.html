@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery.min1.8.3.js"></script>
+<script type="text/javascript">
+
+$(function(){ 
+	var url = window.location.href;
+	  if(url.indexOf("error")>0){
+		  $("#login-error").html("Login Error");
+	  }
+});
+  
+</script>
+</head>
+<body>
+<h1>Login</h1>  
+  
+    <div id="login-error"></div>  
+    
+    <h3>User Login</h3>
+	<form name="f" action="j_spring_security_check" method="post">		
+		<table>
+			<tr><td>User Name：</td><td><input type='text' name='j_username' value=''></td></tr>
+			<tr><td>Password:</td><td><input type='password' name='j_password'/></td></tr>
+			<tr>
+				<td>remember me:<input id="_spring_security_remember_me" name="_spring_security_remember_me" type="checkbox" value="true"/></td>
+				<td colspan='2'><input name="submit" type="submit" value="Login"/></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

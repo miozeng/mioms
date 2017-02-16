@@ -1,0 +1,3 @@
+com\mios\ws\dao\UserDaoTest.class
+com\mios\ws\controller\UserControllerTest.class
+com\mios\ws\controller\AbstractContextControllerTests.class
